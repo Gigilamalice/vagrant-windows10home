@@ -8,4 +8,10 @@ creation d'une box windows10 en fr
   * Clavier Fr / Mac : https://phocean.net/tools/french-apple-macbook-keyboard-layout-for-windows
   * Dropbox : https://phocean.net/tools/french-apple-macbook-keyboard-layout-for-windows
   
+  * email-cafe : https://e-mail.cafe
+
+
+* Creation d'un email temporaire
+    gigilamalicex@e-mail.cafe
+    
   
