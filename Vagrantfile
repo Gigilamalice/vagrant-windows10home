@@ -19,10 +19,14 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "PatBriPerso/windows10home-fr"
   config.vm.box_version = "1.0.0"
-  config.memory = "2048"
   config.vm.hostname = NAME
   config.vm.define NAME
 
+  config.vm.provider "virtualbox" do |vb|
+   vb.memory = "1024"
+   vb.cpus = "2"
+  end
+  
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
