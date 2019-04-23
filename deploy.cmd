@@ -7,3 +7,5 @@ choco install dropbox -f -y
 cd fr_mac
 
 .\setup.exe
+
+cat readme.md
