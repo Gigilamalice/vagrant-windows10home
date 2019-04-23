@@ -13,5 +13,7 @@ creation d'une box windows10 en fr
 
 * Creation d'un email temporaire
     gigilamalicex@e-mail.cafe
+    Gilui0000d!
+    
     
   
