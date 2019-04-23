@@ -4,3 +4,5 @@ README.txt
 output/
 # Ignore .vagrant
 .vagrant
+# Ignore tmp
+tmp
