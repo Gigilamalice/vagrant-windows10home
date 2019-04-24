@@ -1,4 +1,4 @@
-# Script pour automatiser la désactivation des comptes AD dont la dernière connexion > 90 jours
+﻿# Script pour automatiser la désactivation des comptes AD dont la dernière connexion > 90 jours
 # version 1.0
 # Auteur : LCO
 
@@ -11,12 +11,12 @@ get-module
 # Installer Chocolate
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-# Installer Dropbox
-choco install dropbox -f -y
-
 # Installer le clavier MacOS
 Start-Process -FilePath ".\fr_mac\setup.exe"
 
+# Attendre fin installation Dropbox
+Sleep 60
 
-
+# Démarrer Dropbox
+Start-process -filepath "`C:\Program Files (x86)\Dropbox\Client\Dropbox.exe` /home"
 
