@@ -6,3 +6,6 @@ output/
 .vagrant
 # Ignore tmp
 tmp
+
+.DS_Store
+
