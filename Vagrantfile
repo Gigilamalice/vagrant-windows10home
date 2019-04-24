@@ -19,8 +19,8 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "PatBriPerso/windows10home-fr"
   config.vm.box_version = "1.0.0"
-  config.vm.hostname = NAME
-  config.vm.define NAME
+  # config.vm.hostname = NAME
+  # config.vm.define NAME
 
   config.vm.provider "virtualbox" do |vb|
    vb.memory = "2048"
